@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true, // Enable formatting on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Use Prettier as the default formatter
+  "prettier.singleQuote": true, // Enforce single quotes
+  "prettier.trailingComma": "all", // Add trailing commas
+  "prettier.semi": true, // Use semicolons
+  "prettier.tabWidth": 2, // Set tab width to 2 spaces
+  "eslint.format.enable": true, // Enable ESLint formatting
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+<<<<<<< HEAD
+=======
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+>>>>>>> refs/remotes/origin/main
+  }
+}

@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Living Room",
+        "image": "colour-guid-thumbnail-living-room.webp",
+        "component":"LivingRoom",
+        "leftImage":"colour-guid_living-room_1-2.png",
+        "rightImage":"colour-guid_living-room_2-2.png",
+        "leftWidth":73,
+        "leftHeight":306,
+        "rightWidth":427,
+        "rightHeight":306
+    },
+    {
+        "name": "Kids Room",
+        "image": "colour-guid-thumbnail-kids-room.webp",
+        "component":"KidsRoom",
+         "leftImage":"colour-guid_kids_room.png",
+        "rightImage":"colour-guid_kids_room_2.png",
+        "leftWidth":73,
+        "leftHeight":306,
+        "rightWidth":427,
+        "rightHeight":306
+    },
+    {
+        "name": "Kitchen",
+        "image": "colour-guid-thumbnail_kitchen.webp",
+        "component":"KitchenRoom",
+        "leftImage":"colour-guid_kitchen_2.png",
+        "rightImage":"colour-guid_kitchen_1.png",
+        "leftWidth":73,
+        "leftHeight":306,
+        "rightWidth":427,
+        "rightHeight":306
+    },
+    {
+        "name": "Bed Room",
+        "image": "colour-guid-thumbnail-bedroom.webp",
+        "component":"BedRoom",
+        "leftImage":"colour-guid_2.png",
+        "rightImage":"colour-guid_1.png",
+        "leftWidth":73,
+        "leftHeight":306,
+        "rightWidth":427,
+        "rightHeight":306
+    },
+    {
+        "name": "Floor",
+        "image": "colour-guid-thumbnail-floor.webp",
+        "component":"FloorTile",
+        "leftImage":"floor2.png",
+        "rightImage":"floor.png",
+        "leftWidth":200,
+        "leftHeight":300,
+        "rightWidth":300,
+        "rightHeight":300
+    }  
+]

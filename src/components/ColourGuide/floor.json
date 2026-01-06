@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Paver Grey",
+        "code": "",
+        "color": "rgb(82, 85, 86)",
+        "bg": "#525556"
+    },
+    {
+        "name": "Gun Grey",
+        "code": "",
+        "color": "rgb(33, 37, 37)",
+        "bg": "#212525"
+    },
+    {
+        "name": "Golden Yellow",
+        "code": "",
+        "color": "rgb(212, 117, 26)",
+        "bg": "#d4751a"
+    },
+    {
+        "name": "Vibrant Orange",
+        "code": "",
+        "color": "rgb(212, 82, 30)",
+        "bg": "#d4521e"
+    },
+    {
+        "name": "Verdant Green",
+        "code": "",
+        "color": "rgb(55, 150, 59)",
+        "bg": "#37963b"
+    },
+    {
+        "name": "Forest Green",
+        "code": "",
+        "color": "rgb(10, 55, 46)",
+        "bg": "#0a372e"
+    },
+    {
+        "name": "Aquamarine",
+        "code": "",
+        "color": "rgb(28, 104, 96)",
+        "bg": "#1c6860"
+    },
+    {
+        "name": "Peacock Blue",
+        "code": "",
+        "color": "rgb(31, 46, 99)",
+        "bg": "#1f2e63"
+    },
+    {
+        "name": "Chocolate",
+        "code": "",
+        "color": "rgb(105, 56, 47)",
+        "bg": "#69382f"
+    },
+    {
+        "name": "Glow Maroon",
+        "code": "",
+        "color": "rgb(108, 27, 30)",
+        "bg": "#6c1b1e"
+    },
+    {
+        "name": "Ruby Red",
+        "code": "",
+        "color": "rgb(123, 21, 29)",
+        "bg": "#7b151d"
+    },
+    {
+        "name": "P. O. Red",
+        "code": "",
+        "color": "rgb(102, 18, 21)",
+        "bg": "#661215"
+    },
+    {
+        "name": "Golden Brown",
+        "code": "",
+        "color": "rgb(149, 49, 34)",
+        "bg": "#953122"
+    },
+    {
+        "name": "Terracotta",
+        "code": "",
+        "color": "rgb(123, 22, 22)",
+        "bg": "#7b1616"
+    },
+    {
+        "name": "Signal Red Plus",
+        "code": "",
+        "color": "rgb(117, 20, 24)",
+        "bg": "#751418"
+    },
+    {
+        "name": "Signal Red",
+        "code": "",
+        "color": "rgb(203, 30, 37)",
+        "bg": "#cb1e25"
+    },
+    {
+        "name": "Grape Brown",
+        "code": "",
+        "color": "rgb(21, 15, 15)",
+        "bg": "#150f0f"
+    },
+    {
+        "name": "Black",
+        "code": "",
+        "color": "rgb(35, 31, 32)",
+        "bg": "#231f20"
+    }
+]

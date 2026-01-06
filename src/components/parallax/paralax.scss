@@ -1,0 +1,68 @@
+.parallax_item{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    align-items:center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    @media screen and (max-width: 768px) {
+        min-height:200px;
+        background-attachment:scroll;
+        padding:10px 10px 320px 10px;
+        background-position: center bottom;
+        border-bottom:10px solid #fff;
+        &.parallax_0{
+            background-image:url(/assets/images/Parallax-Slider-1-Mobile.jpg) !important;
+        }
+        &.parallax_1{
+            background-image:url(/assets/images/Parallax-Slider-2-Mobile.jpg) !important;
+        }
+        &.parallax_2{
+            background-image:url(/assets/images/Parallax-Slider-3-Mobile.jpg) !important;
+        }
+        &.parallax_3{
+            background-image:url(/assets/images/Parallax-Slider-4-Mobile.jpg) !important;
+        }
+         
+    }
+    --background-transition: 0.3s;
+    --border-transition: 0.3s;
+    &.white{
+        color:#fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .paralax_wrap{
+        width:45%;
+        padding:60px 0;
+        @media screen and (max-width:990px){
+            width:55%; 
+        } 
+        @media screen and (max-width:768px){
+            width:100%;
+            text-align:center;
+        }
+        .paralax_title{ 
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1em; 
+            @media screen and (max-width:768px){
+                font-size: 28px; 
+            }
+        }
+
+        .parallax_subtitle{
+            font-size:28px; 
+            line-height: 1.2em;
+            margin-bottom:24px;
+            @media screen and (max-width:767px){
+                font-size: 22px; 
+                margin-bottom:14px;
+            }
+        }
+    }
+}
+
