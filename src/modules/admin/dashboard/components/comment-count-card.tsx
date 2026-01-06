@@ -1,11 +1,10 @@
 import { Card, Skeleton } from 'antd';
-import { LuBarChart3 } from 'react-icons/lu';
-
+import { FaChartArea } from 'react-icons/fa';
 import { useGetCommentsCountQuery } from '@/api/comment/comment_api';
 
 export function CommentCountCard() {
-  const { data: activeCommentCount, isFetching: isActiveCommentCountLoading }
-    = useGetCommentsCountQuery();
+  const { data: activeCommentCount, isFetching: isActiveCommentCountLoading } =
+    useGetCommentsCountQuery();
 
   return (
     <Card
@@ -18,18 +17,14 @@ export function CommentCountCard() {
         },
       }}
     >
-      <LuBarChart3 className="mb-4 size-[30px] text-blue-500" />
+      <FaChartArea className="mb-4 size-[30px] text-blue-500" />
       <Skeleton loading={isActiveCommentCountLoading} active>
         <h6 className=" mb-4 text-xl font-bold leading-snug">
-          Comments (
-          {activeCommentCount?.totalComments}
-          )
+          Comments ({activeCommentCount?.totalComments})
         </h6>
 
         <p className="mb-2">
-          Today Comments -
-          {' '}
-          {activeCommentCount?.todayComments}
+          Today Comments - {activeCommentCount?.todayComments}
         </p>
       </Skeleton>
     </Card>
